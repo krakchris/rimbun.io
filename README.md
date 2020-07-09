@@ -14,31 +14,7 @@ Water Detection 1                | Water Detection 2
 
 ### File Structure
 
-water_detection_model/
-├── enhanced_image
-│   ├── jpg_raster_files
-│   ├── model_weights
-│   ├── results
-│   │   ├── shapefiles_waterbodies
-│   │   │   ├── test
-│   │   │   ├── train
-│   │   │   └── val
-│   │   ├── test
-│   │   ├── train
-│   │   └── val
-│   ├── test
-│   ├── test_mask
-│   ├── train
-│   ├── train_mask
-│   ├── val
-│   └── val_mask
-├── logs
-├── notebooks
-└── source_data
-    ├── islands_annotations
-    ├── mask_files
-    ├── raster_files
-    └── water_annotations
+![File Structure Image](doc/doc_images/file_structure.png)
 
 ### How To Start The Training The Model
 
