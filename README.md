@@ -57,5 +57,4 @@ There are several open source alternatives available. Find here a selection:
 - [robosat](https://github.com/mapbox/robosat)
 - [Solaris](https://github.com/cosmiq/solaris)
 - [neat-EO](https://archive.fosdem.org/2020/schedule/event/robosat_pink_deep_learning_computer_vision_patterns_extraction_at_scale/)
-- 
 
