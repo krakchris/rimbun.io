@@ -51,7 +51,7 @@ Treetect is tested on Worldview-2/3 imagery.
 If you do not have access to Commercial High Resolution Imagery you can use open datasets provided by [Maxar](https://www.maxar.com/open-data) (covering specific sites only). Or have a look at the NAIP Dataset [here](https://azure.microsoft.com/en-us/services/open-datasets/catalog/naip/) covering the USA (not tested). Otherwise check out [this](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/) vast collection of remote sensing data.  
 
 ## Alternatives
-There are several open source alternatives available. Find here a selection:
+There are several open source frameworks for applying machine learning to satellite imgery. Find a selection below:
 - [Rastervision](https://github.com/azavea/raster-vision)
 - [EO-learn](https://github.com/sentinel-hub/eo-learn)
 - [Robosat](https://github.com/mapbox/robosat)
