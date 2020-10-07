@@ -25,18 +25,18 @@ Rimbun.io was designed to run on AWS EC2 instances but for improving the model t
 ## Algorithm Steps
 ### Creating inferences from large satellite/aerial image
 
-* Selecting an area and collecting satellite imagery
-* Running inference using existing model 
-* Measuring metadata (persil overlap and change in green cover)
+* Collect imagery
+* Run inference
+* Measure metadata
 
 
 ### (Re)Training a model on hand annotations from Image
 
-* Selecting an area and collecting satellite imagery
-* Creating trianing data using GIS software locally
-* Retraining model using custom training data
-* Running inference using improved model 
-* Measuring metadata (persil overlap and change in green cover)
+* Collect imagery
+* Creating trianing data
+* Retrain model
+* Run inference
+* Measure metadata
 
 ## Wiki
 In the [Wiki](https://github.com/krakchris/rimbun.io/wiki) you can find descriptions on how to use each of the algorithms and what their respective input conditions are.
