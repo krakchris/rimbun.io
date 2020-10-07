@@ -50,4 +50,12 @@ The base model can be downloaded here: [Link](www.greencitywatch.com)
 Treetect is tested on Worldview-2/3 imagery.
 If you do not have access to Commercial High Resolution Imagery you can use open datasets provided by [Maxar](https://www.maxar.com/open-data) (covering specific sites only). Or have a look at the NAIP Dataset [here](https://azure.microsoft.com/en-us/services/open-datasets/catalog/naip/) covering the USA (not tested).  
 
+## Alternatives
+There are several open source alternatives available. Find here a selection:
+- [Rastervision](https://github.com/azavea/raster-vision)
+- [eo-learn](https://github.com/sentinel-hub/eo-learn)
+- [robosat](https://github.com/mapbox/robosat)
+- [Solaris](https://github.com/cosmiq/solaris)
+- [neat-EO](https://archive.fosdem.org/2020/schedule/event/robosat_pink_deep_learning_computer_vision_patterns_extraction_at_scale/)
+- 
 
