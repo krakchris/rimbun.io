@@ -12,7 +12,7 @@ Rimbun.io is an open source tool developed by Green City Watch in collaboration 
 Rimbun.io is and open source Water Detection algorithm using U-net model infrastructure. 
 Rimbun.io was designed to run on AWS EC2 instances but for improving the model training data needs to be made on local computers using GIS software.
 
-![image](https://user-images.githubusercontent.com/32303294/92995149-1851ae00-f501-11ea-92c0-67fa6ac25f50.png)
+![image](https://github.com/krakchris/rimbun.io/blob/master/img/lake_example.png)
 
 
 ## Input
