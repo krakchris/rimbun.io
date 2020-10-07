@@ -53,8 +53,7 @@ If you do not have access to Commercial High Resolution Imagery you can use open
 ## Alternatives
 There are several open source alternatives available. Find here a selection:
 - [Rastervision](https://github.com/azavea/raster-vision)
-- [eo-learn](https://github.com/sentinel-hub/eo-learn)
-- [robosat](https://github.com/mapbox/robosat)
+- [EO-learn](https://github.com/sentinel-hub/eo-learn)
+- [Robosat](https://github.com/mapbox/robosat)
 - [Solaris](https://github.com/cosmiq/solaris)
-- [neat-EO](https://archive.fosdem.org/2020/schedule/event/robosat_pink_deep_learning_computer_vision_patterns_extraction_at_scale/)
-
+- [Neat-EO](https://archive.fosdem.org/2020/schedule/event/robosat_pink_deep_learning_computer_vision_patterns_extraction_at_scale/)
