@@ -3,6 +3,8 @@
 
 Rimbun.io is an open source tool developed by Green City Watch in collaboration with The World Bank and the Government of Indonesia. The tools are build to leverage remote sensing and machine learning, known as “geoAI” to measure urban blue spaces and riperian zones.
 
+![image](https://github.com/krakchris/rimbun.io/blob/master/img/lake_example.png)
+
 ***
 
 # rimbun.io opensource
@@ -11,8 +13,6 @@ Rimbun.io is an open source tool developed by Green City Watch in collaboration 
 
 Rimbun.io is and open source Water Detection algorithm using U-net model infrastructure. 
 Rimbun.io was designed to run on AWS EC2 instances but for improving the model training data needs to be made on local computers using GIS software.
-
-![image](https://github.com/krakchris/rimbun.io/blob/master/img/lake_example.png)
 
 
 ## Input
