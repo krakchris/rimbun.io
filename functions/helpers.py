@@ -1,4 +1,5 @@
 import os
+import numpy as np
 
 def wgs2epsg(x,y):
     # calculates EPSG code from xy coordinate in wgs84 format
@@ -17,3 +18,7 @@ def make_dir(dir_path):
         except FileExistsError:
             ##print if directory already exists...
             print("Directory " , dir_path ,  " already exists...")
+            
+def reshape(index):
+    index = np.reshape(index,[1,index.shape[0],index.shape[1]])
+    return(index)
