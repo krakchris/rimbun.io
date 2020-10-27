@@ -1,5 +1,6 @@
 import numpy as np
 import requests
+import fiona
 import os
 
 def wgs2epsg(x,y):
