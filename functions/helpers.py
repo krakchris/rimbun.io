@@ -52,16 +52,12 @@ def check_valid_geometries(shapefile_path):
     # check crs
     if fiona.open(shapefile_path).crs['init'] != 'epsg:4326':
         print('crs is not epsg:4326, skipping...')
-        
         crs_check = False
     else:
         crs_check = True
-        
-    data = []
 
     for pol in fiona.open(shapefile_path):
         if pol['geometry'] != None:
                 shape_list.append(pol)
-                data.append(pol)
             
-    return shape_list, data, crs_check
+    return shape_list, crs_check
