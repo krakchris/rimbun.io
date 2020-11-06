@@ -18,6 +18,10 @@ from keras.models import Model
 from segmentation_models.losses import bce_jaccard_loss, dice_loss
 from segmentation_models.metrics import iou_score
 
+import sys
+
+sys.path.append('../functions')
+
 from data import *
 
 def train_model(batch, data_path, train_raster_file_folder_name, val_raster_file_folder_name, train_mask_file_folder_name, val_mask_file_folder_name, image_color_mode, mask_color_mode, model_weight_path, model_version, number_of_channel, log):
