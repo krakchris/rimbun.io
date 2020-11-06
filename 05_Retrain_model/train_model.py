@@ -103,8 +103,8 @@ if __name__ == '__main__':
                         metavar=4,
                         help='number of batch')
     parser.add_argument('--data_path', required=True,
-                        default='/home/ubuntu/sukh_share/water_detection_model/grayscale',
-                        metavar="/home/ubuntu/sukh_share/water_detection_model/grayscale",
+                        default='../data/nir_green_blue',
+                        metavar="../data/nir_green_blue",
                         help="root path which contains the dataset")
     parser.add_argument('--train_raster_file_folder_name', required=False,
                         default='train',
@@ -115,12 +115,12 @@ if __name__ == '__main__':
                         metavar="train_mask",
                         help='contains mask tif files for training')
     parser.add_argument('--val_raster_file_folder_name', required=False,
-                        default='train',
-                        metavar="train",
+                        default='val',
+                        metavar="val",
                         help='contains original tif files for validation')
     parser.add_argument('--val_mask_file_folder_name', required=False,
-                        default='train_mask',
-                        metavar="train_mask",
+                        default='val_mask',
+                        metavar="val_mask",
                         help='contains mask tif files for validation')
     parser.add_argument('--image_color_mode', required=False,
                         default='grayscale',
@@ -129,7 +129,7 @@ if __name__ == '__main__':
                         default='grayscale',
                         help='color mode which will be used to create the datagenerator for mask')
     parser.add_argument('--model_weight_path', required=False,
-                        default='/home/ubuntu/sukh_share/water_detection_model/model_weights',
+                        default='../data/models/weights',
                         help='path to save the model')
     parser.add_argument('--model_version', required=False,
                         default=0,
@@ -138,7 +138,7 @@ if __name__ == '__main__':
                         default=1,
                         help='number of channels to be used for the training')
     parser.add_argument('--log', required=False,
-                        default='/home/ubuntu/sukh_share/water_detection_model/log',
+                        default='../data/models/log',
                         help='number of channels to be used for the training')
     args = parser.parse_args()
     
