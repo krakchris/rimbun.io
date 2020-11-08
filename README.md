@@ -5,8 +5,11 @@
 - Intro
 - Description
 - How To Use
-- References
-- Author Info
+- Input
+- Output 
+- Basemodels
+- Open data
+- Alternatives
 
 # Introduction
 
@@ -49,9 +52,6 @@ The experimental workflow in this repository mainly consists of jupyter notebook
 * Retrain model
 * Run inference
 * Measure metadata
-
-## Wiki
-In the [Wiki](https://github.com/krakchris/rimbun.io/wiki) you can find descriptions on how to use each of the algorithms and what their respective input conditions are.
 
 ## Basemodels
 We have tested the U-net model architecture to be working.
