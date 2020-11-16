@@ -5,8 +5,11 @@
 - Intro
 - Description
 - How To Use
-- References
-- Author Info
+- Input
+- Output 
+- Basemodels
+- Open data
+- Alternatives
 
 # Introduction
 
@@ -25,7 +28,7 @@ Rimbun.io was designed to run on AWS EC2 instances but for improving the model t
 
 ## How to use
 
-...
+The experimental workflow in this repository mainly consists of jupyter notebooks. The easiest way to use these notebooks is to start a AWS Deep learning AMI. The notebooks have been tested on an ubuntu deep learning AMI. Requirement files are supplied in this repository. 
 
 ## Input
 * 4 or 8 band aerial or satellite imagery with a spatial resolution between 20-80cm including RGBI bands
@@ -49,9 +52,6 @@ Rimbun.io was designed to run on AWS EC2 instances but for improving the model t
 * Retrain model
 * Run inference
 * Measure metadata
-
-## Wiki
-In the [Wiki](https://github.com/krakchris/rimbun.io/wiki) you can find descriptions on how to use each of the algorithms and what their respective input conditions are.
 
 ## Basemodels
 We have tested the U-net model architecture to be working.
