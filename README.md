@@ -37,8 +37,8 @@ The experimental workflow in this repository mainly consists of jupyter notebook
 ## Output
 * Water Detection Shapefiles and metadata
 
-## Algorithm Steps
-### Creating inferences from large satellite/aerial image
+## Workflows
+### Workflow for creating inferences from large satellite/aerial image
 
 
 1. Collect imagery
@@ -57,13 +57,22 @@ The experimental workflow in this repository mainly consists of jupyter notebook
     - output: green cover fraction values surrounding water bodies over time, values for percil overlap per type for water body
 
 
-### (Re)Training a model on hand annotations from Image
+### Workflow for (Re)Training a model on hand annotations from Image
 
-* Collect imagery
-* Creating trianing data
-* Retrain model
-* Run inference
-* Measure metadata
+1. Collect imagery
+    - same as above
+1. Creating trianing data
+    - use desktop GIS tools to generate training data
+    
+1. Retrain model
+    - purpose: retraining the model using pretrained model to fix the workflow for a new area  
+    - input: satellite imagery, training data, pre-trained model
+    - output: retrained model focused on specific area
+    
+1. Run inference
+    - same as above
+1. Measure metadata
+    - same as above
 
 ## Basemodels
 We have tested the U-net model architecture to be working.
