@@ -40,9 +40,21 @@ The experimental workflow in this repository mainly consists of jupyter notebook
 ## Algorithm Steps
 ### Creating inferences from large satellite/aerial image
 
-* Collect imagery
-* Run inference
-* Measure metadata
+
+1. Collect imagery
+    - purpose: downloading imagery from gbdx 
+    - input: city name
+    - output: gridded imagery data on s3 drive
+    
+1. Run inference
+    - purpose: detecting water bodies on satellite imagery
+    - input: satellite data (step 1) and pre-trained model (available on s3)
+    - output: vector data of water areas
+    
+1. Measure extra veriables
+    - purpose: measure changes in green cover and overlap with percil map
+    - input: vector data of water bodies
+    - output: green cover fraction values surrounding water bodies over time, values for percil overlap per type for water body
 
 
 ### (Re)Training a model on hand annotations from Image
