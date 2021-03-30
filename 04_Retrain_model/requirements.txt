@@ -180,7 +180,7 @@ pycrypto==2.6.1
 pycurl==7.43.0.2
 pyflakes==1.6.0
 pygal==2.4.0
-Pygments==2.2.0
+Pygments==2.7.4
 PyJWT==1.7.1
 pykerberos==1.2.1
 pylint==1.8.4
