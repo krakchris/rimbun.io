@@ -142,7 +142,7 @@ oauthlib==3.1.0
 object-detection==0.1
 odo==0.5.1
 olefile==0.45.1
-opencv-python==3.4.2.17
+opencv-python==3.4.7.28
 openpyxl==2.5.3
 opt-einsum==3.1.0
 packaging==20.1
