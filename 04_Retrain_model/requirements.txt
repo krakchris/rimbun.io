@@ -45,7 +45,7 @@ datashape==0.5.4
 decorator==4.4.2
 defusedxml==0.6.0
 dill==0.3.1.1
-distributed==1.28.1
+distributed==2021.10.0
 docutils==0.14
 efficientnet==1.0.0
 entrypoints==0.2.3
